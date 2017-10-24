@@ -8,6 +8,7 @@ This project was started by our collaborators, when had an initiative of the:
 - Eduardo Stelmaszczyk
 
 ### For Compile
+Execute:
 ```bash
 gcc zbx_xenserver.c -fPIC -shared -I [[ZABBIX_SOURCE]]/include -I /usr/include/libxml2 -I /usr/include/curl -lxml2 -lcurl -lxenserver -o zbx_xenserver.so
 ```
